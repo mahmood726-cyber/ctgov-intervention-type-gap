@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Intervention-Type Gap",
+  "slug": "ctgov-intervention-type-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-intervention-type-gap",
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across declared intervention families among eligible older CT.gov studies",
+  "summary": "A standalone E156 project on how declared intervention families map onto older-study visibility and ghost protocols in CT.gov.",
+  "body": "Which intervention types look quietest on ClinicalTrials.gov once older closed interventional studies are grouped by declared intervention family? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and merged raw intervention-type labels from the registry snapshot. The project compares two-year no-results rates, ghost-protocol rates, full visibility, and single-versus-multi-type contrasts across drug, device, behavioral, procedure, biological, dietary-supplement, and other intervention families. Drug studies form the largest family at 118,202 studies and show a 62.6 percent no-results rate. Dietary-supplement studies reach 90.6 percent no results, procedure studies 85.3 percent, while biological studies fall to 58.5 percent and multi-type studies outperform single-type studies. Declared intervention family therefore behaves like a strong visibility classifier rather than a cosmetic label inside the registry. The contrast persists even when large drug stock dominates the overall denominator across older studies. Studies can carry multiple intervention types and labels are sponsor-entered registry categories rather than audited therapeutic taxonomies.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which intervention types look quietest on ClinicalTrials.gov once older closed interventional studies are grouped by declared intervention family?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and merged raw intervention-type labels from the registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, full visibility, and single-versus-multi-type contrasts across drug, device, behavioral, procedure, biological, dietary-supplement, and other intervention families."
+    },
+    {
+      "role": "Primary result",
+      "text": "Drug studies form the largest family at 118,202 studies and show a 62.6 percent no-results rate."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Dietary-supplement studies reach 90.6 percent no results, procedure studies 85.3 percent, while biological studies fall to 58.5 percent and multi-type studies outperform single-type studies."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Declared intervention family therefore behaves like a strong visibility classifier rather than a cosmetic label inside the registry. The contrast persists even when large drug stock dominates the overall denominator across older studies."
+    },
+    {
+      "role": "Boundary",
+      "text": "Studies can carry multiple intervention types and labels are sponsor-entered registry categories rather than audited therapeutic taxonomies."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Intervention-Type Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies merged with extracted raw intervention-type labels",
+    "code": "https://github.com/mahmood726-cyber/ctgov-intervention-type-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369."
+  ]
+}
