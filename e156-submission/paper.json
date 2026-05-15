@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Intervention-Type Gap",
+  "slug": "ctgov-intervention-type-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "Which intervention types look quietest on ClinicalTrials.gov once older closed interventional studies are grouped by declared intervention family? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and merged raw intervention-type labels from the registry snapshot. The project compares two-year no-results rates, ghost-protocol rates, full visibility, and single-versus-multi-type contrasts across drug, device, behavioral, procedure, biological, dietary-supplement, and other intervention families. Drug studies form the largest family at 118,202 studies and show a 62.6 percent no-results rate. Dietary-supplement studies reach 90.6 percent no results, procedure studies 85.3 percent, while biological studies fall to 58.5 percent and multi-type studies outperform single-type studies. Declared intervention family therefore behaves like a strong visibility classifier rather than a cosmetic label inside the registry. The contrast persists even when large drug stock dominates the overall denominator across older studies. Studies can carry multiple intervention types and labels are sponsor-entered registry categories rather than audited therapeutic taxonomies.",
+  "word_count": 156,
+  "sentence_count": 8,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which intervention types look quietest on ClinicalTrials.gov once older closed interventional studies are grouped by declared intervention family?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and merged raw intervention-type labels from the registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, full visibility, and single-versus-multi-type contrasts across drug, device, behavioral, procedure, biological, dietary-supplement, and other intervention families."
+    },
+    {
+      "role": "Primary result",
+      "text": "Drug studies form the largest family at 118,202 studies and show a 62.6 percent no-results rate."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Dietary-supplement studies reach 90.6 percent no results, procedure studies 85.3 percent, while biological studies fall to 58.5 percent and multi-type studies outperform single-type studies."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Declared intervention family therefore behaves like a strong visibility classifier rather than a cosmetic label inside the registry. The contrast persists even when large drug stock dominates the overall denominator across older studies."
+    },
+    {
+      "role": "Boundary",
+      "text": "Studies can carry multiple intervention types and labels are sponsor-entered registry categories rather than audited therapeutic taxonomies."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Intervention-Type Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies merged with extracted raw intervention-type labels",
+    "code": "https://github.com/mahmood726-cyber/ctgov-intervention-type-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across declared intervention families among eligible older CT.gov studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": false,
+        "detail": "Found 8 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
